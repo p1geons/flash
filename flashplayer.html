@@ -1,0 +1,49 @@
+<!-- COPYRIGHT (C) 2022 _P1GEON & SQUASHYBOI
+
+-->
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Ben's Flash Player</title>
+    <link rel="stylesheet" href="/BensFlashPlayer/scripts/main-style.css">
+    
+  </head>
+
+  <div class="header">
+
+    <img src="/BensFlashPlayer/images/icon.jpeg" length="75" width="75">
+    <h3>Ben's Flash Player</h3>
+    
+  </div>
+
+  <div class="mainContent">
+
+    <a href="/BensFlashPlayer/games/FiveNightsAtWinstons.html">
+      <button class="gameBtn">Five Nights at Winstons<br>Eagtek,     LAX1DUDE<br>WiFi, Offline</button>
+    </a>
+    
+    <button class="gameBtn" onclick="eaglercraftWifI()">Eaglercraft<br>Eagtek<br>WiFi</button>
+    
+  </div>
+
+  <script>
+        function eaglercraftWifI() {
+            var doc;
+            var result = confirm("Are you sure? This game requires WiFi to play.");
+            if (result == true) {
+                window.open("https://eaglercraft-server.benjamendaws.repl.co/");
+            } else {
+                
+            }
+            document.getElementById("g").innerHTML = doc;
+        }
+
+  </script>
+  
+</html>
+
